@@ -6,12 +6,12 @@ create a docker server.
   systemctl status docker
   --> Now we can do docker volumes.
   what is a docker volume?
-  --> It is used to store data inside container
+  --> It is used to store data inside a container
   --> Volume is a simple directory inside container
   -->Container uses host resources like (cpu,ram,rom)
   -->Single volume can be shared to multiple containers
   at a time we can share single volume to single container.
-  every volume will store under
+  Every volume will store under
   /var/lib/docker/volumes
   -->To create docker volume we have n number of methods
   1.Docker file
